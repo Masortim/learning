@@ -5,7 +5,7 @@ using namespace std;
 
 int main()
 {
-    setlocale(LC_ALL, "Russian");
+    setlocale(LC_ALL, "Russian");               //Cyrillic symbols in console
     int a, b;
     cout << "Делимое: ";
     cin >> a;
