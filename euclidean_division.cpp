@@ -1,11 +1,11 @@
-#include <iostream>
+#include <iostream>                             // Input/output library
 int integer(int, int);
 double remainder(int, int);
 using namespace std;
 
 int main()
 {
-    setlocale(LC_ALL, "Russian");               //Cyrillic symbols in console
+    setlocale(LC_ALL, "Russian");               // Cyrillic symbols in console
     int a, b;
     cout << "Делимое: ";
     cin >> a;
