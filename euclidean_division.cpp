@@ -1,4 +1,4 @@
-#include <iostream>                             // Input/output library
+#include <iostream>                             // Input/output header library
 int integer(int, int);
 double remainder(int, int);
 using namespace std;
