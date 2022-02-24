@@ -2,12 +2,14 @@
 int integer(int, int);
 double remainder(int, int);
 using namespace std;
+
 int main()
 {
+    setlocale(LC_ALL, "Russian");
     int a, b;
-    cout << "a: ";
+    cout << "Делимое: ";
     cin >> a;
-    cout << "b: ";
+    cout << "Делитель: ";
     cin >> b;
     cout << integer(a, b) << endl;
     cout << remainder(a, b) << endl;
@@ -15,10 +17,11 @@ int main()
 }
 int integer(int a, int b)
 {
-
+    cout << "Целое: ";
     return a / b;
 }
 double remainder(int a, int b)
 {
+    cout << "Остаток: ";
     return a % b;
 }
