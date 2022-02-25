@@ -6,7 +6,6 @@ using namespace std;
 int main()
 {
     setlocale(LC_ALL, "Russian"); // Cyrillic symbols in console
-    
     int a, b;
     cout << "Делимое: ";
     cin >> a;
@@ -18,11 +17,11 @@ int main()
 }
 int integer(int a, int b)
 {
-    cout << "Целое: ";
+    cout << "Целый результат: ";
     return a / b;
 }
 double remainder(int a, int b)
 {
-    cout << "Остаток: ";
+    cout << "Целый остаток: ";
     return a % b;
 }
